@@ -27,8 +27,8 @@ function LocationInfo({ data, clearInfo }) {
                   className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
                 >
                   <td className="px-6 py-4">{data.country}</td>
-                  <td className="px-6 py-4">{place["place name"]}</td>
                   <td className="px-6 py-4">{place.state}</td>
+                  <td className="px-6 py-4">{place["place name"]}</td>
                 </tr>
               ))}
             </tbody>

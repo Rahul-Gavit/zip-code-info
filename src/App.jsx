@@ -1,5 +1,4 @@
 import { SearchBar, LocationInfo } from "./components";
-import "./App.css";
 import { useEffect, useState } from "react";
 import "./index.css";
 
